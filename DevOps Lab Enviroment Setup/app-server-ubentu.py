@@ -1,5 +1,6 @@
-> sudo shutdown now
 
+
+> sudo shutdown now
 ##aelkhodary-desktop
 #to make desktop full screen
 ~> sudo apt install gcc make perl
