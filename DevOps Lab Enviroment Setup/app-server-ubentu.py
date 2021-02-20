@@ -1,5 +1,8 @@
 
-
+'''
+https://ubuntu.com/
+https://www.virtualbox.org/wiki/Downloads
+'''
 > sudo shutdown now
 ##aelkhodary-desktop
 #to make desktop full screen
