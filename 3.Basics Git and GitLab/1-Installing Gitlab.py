@@ -1,4 +1,5 @@
 '''
+https://ubuntu.com/
 https://about.gitlab.com/install/#ubuntu
 #new machine name
 aelkhodary@gitlab-server
@@ -9,5 +10,7 @@ aelkhodary@gitlab-server
 #2. Add the GitLab package repository and install the package
 # Add the GitLab package repository.
 ~>curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.deb.sh | sudo bash
-
+# Next, install the GitLab package
 ~>sudo EXTERNAL_URL="http://gitlab.scad.com" apt-get install gitlab-ee
+
+#aelkhodary@gitlab-server:~$

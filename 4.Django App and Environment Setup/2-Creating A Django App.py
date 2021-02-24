@@ -3,6 +3,7 @@ https://www.djangoproject.com/
 https://docs.djangoproject.com/en/3.1/intro/install/
 https://docs.djangoproject.com/en/3.1/topics/install/#installing-official-release
 https://docs.djangoproject.com/en/3.1/howto/windows/
+https://tutorial.djangogirls.org/en/django_admin/
 '''
 
 # first activate your enviroment with this command
@@ -18,3 +19,11 @@ django-projects~>cd polling
 django-projects\polling~>python manage.py migrate
 django-projects\polling~>py manage.py runserver
 #http://127.0.0.1:8000/
+#https://tutorial.djangogirls.org/en/django_admin/
+django-projects\polling~> py manage.py createsuperuser
+
+#Username (leave blank to use 'amelkhodary'): admin
+#Email address: admin@yahoo.com
+#Password:admin
+
+django-projects\polling~>pip install python-decouple
