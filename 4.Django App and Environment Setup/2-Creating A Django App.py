@@ -1,10 +1,10 @@
-'''
+"""
 https://www.djangoproject.com/
 https://docs.djangoproject.com/en/3.1/intro/install/
 https://docs.djangoproject.com/en/3.1/topics/install/#installing-official-release
 https://docs.djangoproject.com/en/3.1/howto/windows/
 https://tutorial.djangogirls.org/en/django_admin/
-'''
+"""
 
 # first activate your enviroment with this command
 #Activate the virtual environment created for the project.
@@ -27,3 +27,10 @@ django-projects\polling~> py manage.py createsuperuser
 #Password:admin
 
 django-projects\polling~>pip install python-decouple
+
+"""
+#Requirements
+#to list all the required packages to run your application
+"""
+
+django-projects\polling> pip freeze > requirments.txt
