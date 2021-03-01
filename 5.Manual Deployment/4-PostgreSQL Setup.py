@@ -6,7 +6,7 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postg
 ~>sudo apt install python3-pip python3-dev libpq-dev postgresql postgresql-contrib nginx curl
 ~>sudo -u postgres psql
 ~>#CREATE DATABASE pollingdb;
-~># \1 [ctl+enter] ##list all database created
+~># \l [ctl+enter] ##list all database created
 ~># CREATE USER pollinguser WITH PASSWORD 'password2020';
 ~># \du [ctl+enter] ## to list all user created
 ~># ALTER ROLE pollinguser SET client_encoding TO 'utf8';
