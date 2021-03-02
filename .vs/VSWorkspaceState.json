@@ -1,15 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\3.Basics Git and GitLab",
-    "\\4.Django App and Environment Setup",
-    "\\5.Manual Deployment",
-    "\\django-projects",
-    "\\django-projects\\Include",
-    "\\django-projects\\Lib",
-    "\\django-projects\\polling",
-    "\\django-projects\\polling\\polling"
+    "\\6.CICD Setup"
   ],
-  "SelectedNode": "\\5.Manual Deployment\\7-Deploying Our Application Code to Production Server.py",
+  "SelectedNode": "\\6.CICD Setup\\3.Configure GitLab-Jenkins Connection.py",
   "PreviewInSolutionExplorer": false
 }

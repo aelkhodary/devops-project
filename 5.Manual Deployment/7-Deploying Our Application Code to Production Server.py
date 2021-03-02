@@ -14,9 +14,9 @@ deployment-user@app-server:~/polling$la
 
 deployment-user@app-server:~/polling$nano .env
 
-deployment-user@app-server:~/polling$ pip install -r requirements.txt
+deployment-user@app-server:~/polling$ sudo pip install -r requirements.txt
 
-deployment-user@app-server:~/polling$python3 manage.py migrate
+deployment-user@app-server:~/polling$sudo python3 manage.py migrate
 """
 Operations to perform:
   Apply all migrations: admin, auth, contenttypes, polls, sessions
