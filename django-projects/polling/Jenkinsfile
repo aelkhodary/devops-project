@@ -3,17 +3,24 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh 'echo building' 
+                sh 'pip3 install -r requirments.txt' 
             }
         }
         stage('Test') { 
             steps {
-                echo 'testing' 
+                echo 'python3 manage.py test' 
             }
         }
         stage('Deploy') { 
             steps {
-                sh 'echo deploying' 
+                sh 'ssh -o StrictHostkeyChecking=no deployment-user@192.168.56.101 "source venv/bin/activate; \
+                cd polling; \
+                git pull origin master; \
+                pip install -r requirments.txt --no-warn-script-location; \
+                sudo python3 manage.py migrate; \
+                deactivate; \
+                sudo systemctl restart nginx; \
+                sudo systemctl restart gunicorn"' 
             }
         }
     }

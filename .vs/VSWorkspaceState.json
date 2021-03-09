@@ -1,8 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\6.CICD Setup"
+    "\\5.Manual Deployment",
+    "\\6.CICD Setup",
+    "\\django-projects",
+    "\\django-projects\\Lib",
+    "\\django-projects\\Lib\\site-packages",
+    "\\django-projects\\polling",
+    "\\django-projects\\polling\\polls",
+    "\\django-projects\\polling\\templates",
+    "\\django-projects\\Scripts"
   ],
-  "SelectedNode": "\\6.CICD Setup\\3.Configure GitLab-Jenkins Connection.py",
+  "SelectedNode": "\\django-projects\\polling\\templates\\polls\\detail.html",
   "PreviewInSolutionExplorer": false
 }
